@@ -1,1 +1,1 @@
-print ("Peace!")
+print("Peace!")
