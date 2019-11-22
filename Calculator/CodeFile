@@ -1,0 +1,33 @@
+# Calculator Project In Python
+
+
+def add(a1, b1):
+    return a1 + b1
+
+
+def sub(a1, b1):
+    return a1 - b1
+
+
+def mul(a1, b1):
+    return a1 * b1
+
+
+def div(a1, b1):
+    return a1 / b1
+
+
+# Driver Code
+
+a = int(input("Enter a: "))
+b: int = int(input("Enter b: "))
+op = input("Enter operation type: ")
+
+if op == '+':
+    print(add(a, b))
+if op == '-':
+    print(sub(a, b))
+if op == '*':
+    print(mul(a, b))
+if op == '/':
+    print(div(a, b))
